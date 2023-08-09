@@ -1,0 +1,12 @@
+https://github.com/0vercl0k/rp/issues/50
+
+0vercl0k:
+
+Okay, you can generate a 32-bit solution this way:
+
+rp\src>mkdir build32
+rp\src\build32>cd build32
+rp\src\build32>cmake .. -G "Visual Studio 17 2022" -A Win32
+
+Then you can compile the solution with VS.
+

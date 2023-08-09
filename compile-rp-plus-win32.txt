@@ -10,3 +10,12 @@ rp\src\build32>cmake .. -G "Visual Studio 17 2022" -A Win32
 
 Then you can compile the solution with VS.
 
+==========
+
+vpzed notes:
+- Open Visual Studio Community and open the source folder
+- Open Developer Command Prompt from inside VS and follow instructions above from 0vercl0k
+- Open the newly created build32\rp++.sln solution file in Visual Studio
+- Switch Solution Configuration to Release and Build
+- Grab new binary from build32\Release
+
